@@ -1,2 +1,8 @@
 //https://github.com/vishkusugal
-#inclu	
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+
+	cout << "HELLO" << endl;
+}
