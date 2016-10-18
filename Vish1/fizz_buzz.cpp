@@ -10,7 +10,7 @@ using namespace std;
 
 static class Solution {
 public:
-	string str(int x) {
+	static string str(int x) {
 		string ostr = "";
 		if (x % 3 == 0) {
 			ostr += "Fizz";
@@ -25,7 +25,7 @@ public:
 	}
 	static vector<string> fizzBuzz(int n) {
 		vector<string> out;
-		if (int i = 1; i <= n; i++) {
+		for (size_t i = 1; i <= n; i++) {
 			out.push_back(str(i));
 		}
 		return out;
